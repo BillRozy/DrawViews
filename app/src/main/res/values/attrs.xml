@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_list_row_size">120dip</dimen>
+    <declare-styleable name="HitView">
+        <attr name="isActive" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TrackLayout">
+        <attr name="android:layout_gravity" />
+        <attr name="layout_position">
+            <enum name="middle" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
